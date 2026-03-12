@@ -1,0 +1,12 @@
+.halfsquare {
+    width: 1000px;
+    height: 1200px;
+    background-color: rgba(2, 155, 2, 0.76);
+    position: fixed;        
+    left: 25vw;            
+    top: 50%;               
+    transform: translate(-50%, -50%); 
+    z-index: -1;
+
+  
+}
