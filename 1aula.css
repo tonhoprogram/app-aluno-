@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .halfsquare {
     width: 1000px;
     height: 1200px;
-    background-color: rgba(2, 155, 2, 0.76);
+    background-color: rgba(15, 85, 45, 1);
     position: fixed;        
     left: 25vw;            
     top: 50%;               
@@ -9,4 +12,65 @@
     z-index: -1;
 
   
+}
+body {
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 200;
+     font-style: normal;
+}
+
+.container {
+    display: flex;
+ 
+}
+.container > div {
+    width: 50%;
+}
+
+.hero {
+    font-size: 40px;
+    color : white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top : 30vh;
+    text-align: left;
+    font-family: 'inter', sans-serif;
+    font-weight: 100;
+    margin-left: 30px;
+}
+
+.form {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form label{
+    display : block;
+    font-family: 'inter', sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.form button {
+    display : block;
+    padding: 16px;
+    width: 108%;
+    margin-top: 30px;
+    color : white;
+    text-transform: uppercase;
+    background-color: rgba(15, 85, 45, 1);
+    border : none;
+    font-family: 'inter', sans-serif;
+}
+.form input {
+    display : block;
+    padding: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border : 1px solid rgba(15, 85, 45, 1);
+}
+.login-form {
+    margin-top: 20%;
 }
